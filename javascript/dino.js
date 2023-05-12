@@ -19,7 +19,7 @@ class Dino {
 	init() {
 			// Init Sprite
 			this.sprite = new Image;
-			this.sprite.src = "images/sprite.png";
+			this.sprite.src = "./img/sprite.png";
 	}
 	drawDino() {
 			this.ctx.drawImage(this.sprite, this.dinos[this.dino].sx, 0, 95, 100, 80, this.canvas.height-75, 75, 75)
